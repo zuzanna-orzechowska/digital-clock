@@ -11,7 +11,7 @@ function clock () {
 
     hours = hours > 12 ? hours % 12 : hours;
     
-    hours = hours < 10 ? `0${hours}` : hours;       // CZEMU MI TO ZERO NIE POKAZUJE RATUNKU ;/
+    hours = hours < 10 ? `0${hours}` : hours;       // doesn't show zero before numbers <10
     minutes = minutes < 10 ? `0${minutes}` : minutes;
     seconds = seconds < 10 ? "0" + seconds : seconds; 
 }
